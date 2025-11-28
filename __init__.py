@@ -1,7 +1,7 @@
 bl_info = {
     "name": "Ultimate Bak3",
     "author": "andiusndd",
-    "version": (3, 2, 6),
+    "version": (3, 2, 7),
     "blender": (2, 93, 0),
     "location": "View3D > Sidebar > Ultimate Bak3",
     "description": "Advanced texture baking tool with presets and automation",
