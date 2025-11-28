@@ -1,0 +1,26 @@
+{
+    "name": "Game Asset 2K (Updated)",
+    "description": "Optimized for game assets at 2K resolution with Cycles rendering",
+    "version": "1.0",
+    "settings": {
+        "output_dir": "//bakes",
+        "image_size": 2048,
+        "image_prefix": "GameAsset_",
+        "image_format": "PNG",
+        "color_depth": "8",
+        "auto_save": true,
+        "create_new_uv": true,
+        "uvmap_name": "UVMap_Bake",
+        "uv_mode": "INDIVIDUAL",
+        "unwrap_method": "SMART",
+        "bake_type": "COMBINED",
+        "use_selected_to_active": false
+    },
+    "render": {
+        "engine": "CYCLES",
+        "cycles_samples": 128,
+        "cycles_use_denoising": true,
+        "cycles_denoiser": "OPTIX",
+        "cycles_device": "GPU"
+    }
+}

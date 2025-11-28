@@ -1,0 +1,26 @@
+{
+    "name": "PBR Production",
+    "description": "Production-quality PBR texture baking",
+    "version": "1.0",
+    "settings": {
+        "output_dir": "//bakes",
+        "image_size": 4096,
+        "image_prefix": "PBR_",
+        "image_format": "PNG",
+        "color_depth": "16",
+        "auto_save": true,
+        "create_new_uv": true,
+        "uvmap_name": "UVMap_Bake",
+        "uv_mode": "INDIVIDUAL",
+        "unwrap_method": "SMART",
+        "bake_type": "PBR",
+        "use_selected_to_active": false
+    },
+    "render": {
+        "engine": "CYCLES",
+        "cycles_samples": 256,
+        "cycles_use_denoising": true,
+        "cycles_denoiser": "OPTIX",
+        "cycles_device": "GPU"
+    }
+}

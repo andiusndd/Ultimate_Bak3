@@ -1,0 +1,26 @@
+{
+    "name": "Atlas Bake",
+    "description": "Shared UV atlas baking for multiple objects",
+    "version": "1.0",
+    "settings": {
+        "output_dir": "//bakes",
+        "image_size": 4096,
+        "image_prefix": "Atlas_",
+        "image_format": "PNG",
+        "color_depth": "8",
+        "auto_save": true,
+        "create_new_uv": true,
+        "uvmap_name": "UVMap_Atlas",
+        "uv_mode": "SHARED",
+        "unwrap_method": "SMART",
+        "bake_type": "COMBINED",
+        "use_selected_to_active": false
+    },
+    "render": {
+        "engine": "CYCLES",
+        "cycles_samples": 128,
+        "cycles_use_denoising": true,
+        "cycles_denoiser": "OPTIX",
+        "cycles_device": "GPU"
+    }
+}

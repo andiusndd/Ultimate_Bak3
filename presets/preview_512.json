@@ -1,0 +1,26 @@
+{
+    "name": "Preview 512",
+    "description": "Fast preview bake at 512px resolution",
+    "version": "1.0",
+    "settings": {
+        "output_dir": "//bakes",
+        "image_size": 512,
+        "image_prefix": "Preview_",
+        "image_format": "JPEG",
+        "color_depth": "8",
+        "auto_save": true,
+        "create_new_uv": true,
+        "uvmap_name": "UVMap_Bake",
+        "uv_mode": "INDIVIDUAL",
+        "unwrap_method": "SMART",
+        "bake_type": "COMBINED",
+        "use_selected_to_active": false
+    },
+    "render": {
+        "engine": "CYCLES",
+        "cycles_samples": 32,
+        "cycles_use_denoising": false,
+        "cycles_denoiser": "OPTIX",
+        "cycles_device": "GPU"
+    }
+}
